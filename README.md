@@ -2,7 +2,7 @@
 
 ## Prerequisite
 
-1. Make sure you've already setup `.env` file in root directory. (See [here](../README.md#set-environment-variables))
+1. Make sure you've already setup `.env` file in root directory. (See [here](/README.md#set-environment-variables))
 2. Run `npm run setup`
 3. Run `npm run start` at root directory.
 
