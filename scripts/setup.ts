@@ -3,7 +3,7 @@ import fs from "fs/promises";
 import path from 'path'
 
 async function main() {
-  const rootEnvPath= path.resolve(__dirname, '.env')
+  const rootEnvPath= path.resolve(__dirname, '/.env')
   const rootEnv = await fs.readFile(rootEnvPath, 'utf8');
   const rootEnvLines = rootEnv.split('\n');
   const evmPrivateKey = rootEnvLines.find((line) => line.startsWith('EVM_PRIVATE_KEY'))?.split('=')[1];
